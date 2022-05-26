@@ -2,7 +2,7 @@
 
 # A Serverless Function with AWS Lambda and MongoDB
 
-# I use AWS Lambda as a serverless platform and MongoDB Atlas as a database provider.
+I use AWS Lambda as a serverless platform and MongoDB Atlas as a database provider.
 
 # Creating serverless function
 
