@@ -24,11 +24,7 @@ def lambda_handler(event, context):
     collection = db.weather_collection
     print("Collection: ", collection)
     # weather.weather_collection
-
-    f = open('sample-weather-data.json')
-
-    data = json.load(f)
-
+    
     for item in data:
         print("item: ", item)
         collection.insert_one(item)
