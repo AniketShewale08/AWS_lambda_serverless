@@ -1,4 +1,4 @@
-service: lambdaserverless
+service: saveData
 
 frameworkVersion: '3'
 
@@ -11,11 +11,6 @@ provider:
 plugins:
   - serverless-python-requirements
 
-packages:
-  individually: true 
-
 functions:
   saveData:
-    handler: handler.lambda_handler
-    timeout: 5 #seconds
-    memorySize: 128 #mb     
+    handler: handler.lambda_handler   
